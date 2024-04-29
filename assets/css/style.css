@@ -1,0 +1,184 @@
+body {
+    background: #333333;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #fff;
+}
+
+.card {
+    background: linear-gradient(99.82deg, rgba(0, 31, 63, 0.16) 7.06%, rgba(184, 115, 51, 0.16) 55.13%, rgba(0, 31, 63, 0.16) 107.33%);
+}
+
+nav input {
+    background: #333333;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.form-control-rounded {
+    border-radius: 24px;
+    color: #fff;
+}
+
+select,
+input {
+    background: #333333;
+    color: #fff;
+}
+
+#crypto-section {
+    margin: 4em 0;
+}
+
+.tier-section {
+    border: 1px solid #888;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.tier-section h5 {
+    color: #777;
+}
+
+.tier-section p {
+    color: #666;
+}
+
+.tier-section button {
+    background: none;
+    color: #777;
+    border: 1px solid #777;
+    padding: 5px 7px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#crypto-section #crypto-button {
+    height: 45px;
+    margin-top: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: linear-gradient(90deg, #001F3F 0%, #B87333 100%);
+    color: #fff;
+    border: none;
+}
+
+.options-card {
+    padding: 10px;
+    border-radius: 10px;
+    border-top-right-radius: 40px;
+    background-color: #333333;
+}
+
+.options-card p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.options-card button {
+    background: #99f;
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 80%;
+}
+
+#range-section h5 {
+    color: #888;
+}
+
+#range-section button {
+    background: #333;
+    color: #999;
+    border: 1px solid #777;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 7px 5px;
+}
+
+.details {
+    border: 1px solid #777;
+    border-radius: 10px;
+}
+
+.details p {
+    margin-bottom: 2px;
+    color: #999;
+    font-size: 14px;
+}
+
+.price p {
+    margin-bottom: 0;
+    color: #999;
+}
+
+.price p:nth-child(2) {
+    font-size: 18px;
+    color: #99f;
+    font-weight: 600;
+}
+
+.position {
+    margin: 25px 0;
+}
+
+.position i {
+    color: #99f;
+    font-size: 40px;
+}
+
+.deposit button {
+    background: #777;
+    color: #555;
+    border-radius: 7px;
+}
+
+.deposit button i {
+    color: #99f;
+    margin-right: 5px;
+}
+
+.btn-block {
+    border: 1px solid #777;
+    padding: 7px 7px;
+    border-radius: 20px;
+    color: #fefefe;
+    background: #333;
+}
+
+.btn-block:hover {
+    border: 1px solid #999;
+    color: #fff;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    background: #333;
+    /* background: linear-gradient(99.82deg, rgba(0, 31, 63, 0.16) 7.06%, rgba(184, 115, 51, 0.16) 55.13%, rgba(0, 31, 63, 0.16) 107.33%); */
+    color: #fefefe;
+}
+
+.modal-header button {
+    color: #fefefe;
+}
+
+.modal .button {
+    color: #fff;
+    background: #333;
+}
+
+.colored-placeholder::placeholder {
+    color: #999;
+    /* Desired color for the placeholder text */
+}
